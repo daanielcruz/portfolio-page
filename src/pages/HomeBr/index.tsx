@@ -117,7 +117,7 @@ const HomeEn: React.FC = () => {
             <SectionTextBox>
               <p>Experiência Profissional</p>
               <ParagraphsBox>
-                <p>Assistente Administrativo</p>
+                <p>ASSISTENTE ADMINISTRATIVO</p>
                 <small>Sos Docs - (Janeiro 2019 - Junho 2020)</small>
                 <p>
                   Galpão de guarda de documentos (RJ): digitalização e
@@ -126,7 +126,7 @@ const HomeEn: React.FC = () => {
                 </p>
               </ParagraphsBox>
               <ParagraphsBox>
-                <p>Assistente de Faturamento</p>
+                <p>ASSISTENTE DE FATURAMENTO</p>
                 <small>Viva Rio - (Novembro 2014 - Junho 2016)</small>
                 <p>
                   Unidade prisional de saúde (SEAP-RJ): coletar dados
