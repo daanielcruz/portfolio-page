@@ -33,7 +33,7 @@ const HomeEn: React.FC = () => {
           <Section id="about-me">
             <SectionTextBox>
               <p>About me</p>
-              I'm brazilian and 24 years old, currently i live in Rio de Janeiro
+              I'm brazilian and 24 years old, i currently live in Rio de Janeiro
               - RJ, passionate about IT since my childhood, in this time I
               programmed simple things in the following languages: VB6, Delphi
               7, AutoIT e PHP. In 2020 I decided to study diligently, I am a
