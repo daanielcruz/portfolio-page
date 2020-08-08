@@ -9,8 +9,12 @@ export const Footer = styled.footer`
   flex: 1;
   justify-content: center;
   align-items: center;
-  color: #262626;
+  color: black;
   > a {
-    color: #262626;
+    color: black;
+    transition: 0.4s;
+    &:hover {
+      opacity: 0.5;
+    }
   }
 `;
