@@ -20,12 +20,16 @@ const Menu: React.FC<iMenu> = ({ open, language }) => {
         {language === 'en' ? 'About me' : 'Sobre mim'}
       </NavLink>
 
-      <NavLink to={language === 'pt' ? '/contact/pt-br' : '/contact/en'}>
+      <a
+        href="https://api.whatsapp.com/send?phone=5521979288342&text=Hello%20Daniel%20Cruz!"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <span role="img" aria-label={language === 'en' ? 'contact' : 'contato'}>
           &#x1f4e9;
         </span>
         {language === 'en' ? 'Contact' : 'Contato'}
-      </NavLink>
+      </a>
 
       <NavLink to={language === 'en' ? '/pt-br' : '/en'}>
         {language === 'en' ? 'Pt-br' : 'English'}
