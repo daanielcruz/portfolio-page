@@ -36,7 +36,7 @@ const HomeEn: React.FC = () => {
               I'm brazilian and 24 years old, i currently live in Rio de Janeiro
               - RJ, passionate about IT since my childhood, in this time I
               programmed simple things in the following languages: VB6, Delphi
-              7, AutoIT e PHP. In 2020 I decided to study diligently, I am a
+              7, AutoIT and PHP. In 2020 I decided to study diligently, I am a
               person willing to learn.
             </SectionTextBox>
             <IconsContainer>
