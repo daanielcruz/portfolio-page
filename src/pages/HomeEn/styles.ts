@@ -17,7 +17,7 @@ export const Section = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3rem auto 0;
+    margin: 2rem auto 0;
   }
 `;
 

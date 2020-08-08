@@ -21,4 +21,8 @@ body {
   border-bottom: none;
 }
 
+#about-me {
+  margin-top: 3rem;
+}
+
 `;

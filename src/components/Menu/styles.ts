@@ -13,6 +13,7 @@ export const StyledMenu = styled.nav`
   position: absolute;
   top: 4rem;
   left: 0;
+
   transition: transform 0.3s ease-in-out;
   transform: ${({ open }: { open: boolean }) =>
     open ? 'translateX(0)' : 'translateX(-100%)'};
