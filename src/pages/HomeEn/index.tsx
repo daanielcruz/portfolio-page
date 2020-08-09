@@ -33,11 +33,16 @@ const HomeEn: React.FC = () => {
           <Section id="about-me">
             <SectionTextBox>
               <p>About me</p>
-              I'm brazilian and 24 years old, i currently live in Rio de Janeiro
-              - RJ, passionate about IT since my childhood, in this time I
-              programmed simple things in the following languages: VB6, Delphi
-              7, AutoIT and PHP. In 2020 I decided to study diligently, I am a
-              person willing to learn.
+              Hello, there!<br/>
+              
+              I'm Daniel Cruz, a 24 years old brazilian currently
+              living in Rio de Janeiro - RJ. <br />
+              
+              I've been in love with IT since my childhood, when I used to code
+              in several languages like VB6, Delphi 7, AutoIT and PHP as a hobby. <br />
+              
+              But then, in 2020 I decided to take a step foward. Nowadays I am
+              studying it diligently, which shows that person willing to learn.
             </SectionTextBox>
             <IconsContainer>
               <IconContainer
@@ -120,8 +125,8 @@ const HomeEn: React.FC = () => {
                 <p>ADMINISTRATIVE ASSISTANT</p>
                 <small>Sos Docs - (January 2019 - June 2020)</small>
                 <p>
-                  Document guard Hangar (RJ): digitization and sanitation of
-                  physical/digital documents, dashboards, monitoring of the
+                  Document guard Hangar (RJ): responsible for managing
+                  physical/digital data and monitoring the
                   production team.
                 </p>
               </ParagraphsBox>
@@ -129,11 +134,11 @@ const HomeEn: React.FC = () => {
                 <p>BILLING ASSISTANT</p>
                 <small>Viva Rio - (November 2014 - June 2016)</small>
                 <p>
-                  Prison Health Unit (SEAP-RJ): collect administrative data
-                  related to hospital billing, dashboards, maintain the
-                  registration control of employees and make the
-                  conference/registration of biometric point and as a hobby
-                  performed the maintenance of the unit's computers.
+                  Prison Health Unit (SEAP-RJ): in charge of collecting administrative data
+                  related to hospital billing, dashboards, besides maintaining the
+                  employees registration control and checking the
+                  log of the biometric point. 
+                  I volunteered performed the maintenance of the unit's computers.
                 </p>
               </ParagraphsBox>
             </SectionTextBox>
@@ -146,13 +151,13 @@ const HomeEn: React.FC = () => {
                 <p>FACULDADE TEOLÓGICA SUL AMERICANA</p>
                 <small>Bachelor of Theology - (2018 - 2022)</small>
                 <p>
-                  The college was formed in Londrina in 1994 as "South American
-                  Theological Seminary" (Acronym: STSA) and later with the
-                  recognition, between 1999 and 2000, of theology as a higher
-                  education course by MEC became the South American Theological
+                  The college was built in Londrina in 1994 as a "South American
+                  Theological Seminary" (Acronym: STSA). Later, around 2000, 
+                  it was recognized as a theological higher education course by MEC 
+                  (Brazillian Education Ministry), becoming the South American Theological 
                   Faculty - FTSA. Its founders were: Dr. Antonio Carlos Barro
                   and Dr. Jorge Henrique Barro, both with theological training
-                  at Fuller Theological Seminary (USA).
+                  at Fuller Theological Seminary, situated in Pasadena, California.
                 </p>
               </ParagraphsBox>
               <ParagraphsBox>
@@ -163,14 +168,14 @@ const HomeEn: React.FC = () => {
                 </small>
                 <p>
                   The Estácio de Sá University (UNESA) is a Brazilian private
-                  higher education institution founded in 1970 in the Rio
+                  higher education institution founded in 1970 situated in the Rio
                   Comprido neighborhood, in the Central Zone of Rio de Janeiro,
-                  as a law school, and today it is part of the group of
-                  universities YDUQS. It has 39 campuses spread across the state
-                  of Rio de Janeiro, with Tom Jobim Campus being the main and
-                  responsible for university administration. In 2019, the
-                  University Ranking of "Folha de S. Paulo" (RUF) classified it
-                  as one of the 100 best Brazilian universities, and as the 27th
+                  as a law school.
+                  Nowadays the college is part of the YDUQS universities group.
+                  It has 39 campuses around the state, being Tom Jobim Campus the main one,
+                  responsible for the university administration. 
+                  In 2019, in the University Ranking of "Folha de S. Paulo" (RUF), it was 
+                  classified as one of the 100 best Brazilian universities and as the 27th
                   best private higher institution in the country.
                 </p>
               </ParagraphsBox>
