@@ -23,6 +23,21 @@ const Home = () => {
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         />
+        <script
+          async
+          src={"https://www.googletagmanager.com/gtag/js?id=UA-167264249-1"}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-167264249-1');
+                  `,
+          }}
+        />
       </Head>
       <Main>
         <AboutMe />

@@ -22,6 +22,10 @@ export const TranslateContainer = styled.div`
     font-size: 22px;
   }
 
+  > span:nth-child(2) {
+    color: darkgray;
+  }
+
   > span:first-child,
   span:last-child {
     cursor: pointer;
