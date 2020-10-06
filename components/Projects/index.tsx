@@ -13,7 +13,7 @@ const Projects = () => {
         role="Mobile"
         number="001"
         color="gray"
-        img="/img/mockup-bomdebiblia.png"
+        img="/img/mockup-bomdebiblia.webp"
         type="mobile"
         title={t("title001")}
         description={t("description001")}
@@ -24,7 +24,7 @@ const Projects = () => {
         role="Front-End"
         number="002"
         color="#f4a460"
-        img="/img/mockup-front-employees.png"
+        img="/img/mockup-front-employees.webp"
         type="desktop"
         title={t("title002")}
         description={t("description002")}
@@ -35,7 +35,7 @@ const Projects = () => {
         role="Back-End"
         number="003"
         color="#321800"
-        img="/img/mockup-back-employees.png"
+        img="/img/mockup-back-employees.webp"
         type="desktop"
         title={t("title003")}
         description={t("description003")}
@@ -46,7 +46,7 @@ const Projects = () => {
         role="Front-End"
         number="004"
         color="#6666ff"
-        img="/img/mockup-notflix.png"
+        img="/img/mockup-notflix.webp"
         type="desktop"
         title={t("title004")}
         description={t("description004")}
@@ -57,7 +57,7 @@ const Projects = () => {
         role="Front-End"
         number="005"
         color="#ff0000"
-        img="/img/mockup-winnin.png"
+        img="/img/mockup-winnin.webp"
         type="desktop"
         title={t("title005")}
         description={t("description005")}
