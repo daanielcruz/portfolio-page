@@ -12,6 +12,28 @@ export const Content = styled.section`
   }
 `;
 
+export const TranslateContainer = styled.div`
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  transition: 0.3s;
+
+  > span {
+    font-size: 22px;
+  }
+
+  > span:first-child,
+  span:last-child {
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+  > span:first-child:hover,
+  span:last-child:hover {
+    opacity: 0.5;
+  }
+`;
+
 export const TitleName = styled.h1`
   font-size: 35px;
 `;
@@ -24,7 +46,7 @@ export const Qualities = styled.div`
 `;
 
 export const Quality = styled.h3`
-  font-size: 31px;
+  font-size: 30px;
   color: #555;
 `;
 
@@ -55,12 +77,11 @@ export const Icon = styled.a`
   }
 `;
 
-export const Buttons = styled.div`
+export const ButtonContainer = styled.div`
   margin-top: 15%;
 `;
 
 export const ContactMe = styled.a`
-  position: relative;
   font-size: 17px;
   font-weight: 500;
   line-height: 28px;

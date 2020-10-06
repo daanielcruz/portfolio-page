@@ -1,34 +1,49 @@
+import {useCallback} from "react";
+import {useRouter} from "next/router";
+
+import useTranslation from "../../hooks/useTranslation";
+import {locales} from "../../translations/config";
+
 import {
   Content,
+  TranslateContainer,
   TitleName,
   Qualities,
   Quality,
   Description,
   IconsContainer,
   Icon,
-  Buttons,
+  ButtonContainer,
   ContactMe,
 } from "./styles";
 
 const AboutMe = () => {
+  const {locale, t} = useTranslation();
+  const router = useRouter();
+
+  const handleLocaleChange = useCallback(
+    (locale: string) => {
+      const regex = new RegExp(`^/(${locales.join("|")})`);
+      router.push(router.pathname, router.asPath.replace(regex, `/${locale}`));
+    },
+    [router],
+  );
+
   return (
     <Content>
+      <TranslateContainer>
+        <span onClick={() => handleLocaleChange("pt")}>PT</span>
+        <span> | </span>
+        <span onClick={() => handleLocaleChange("en")}>EN</span>
+      </TranslateContainer>
       <TitleName>Daniel F. Cruz</TitleName>
       <Qualities>
-        <Quality>DEVELOPER.</Quality>
-        <Quality>RELIABLE.</Quality>
-        <Quality>FAST.</Quality>
-        <Quality>SMART.</Quality>
+        <Quality>{t("quality1")}</Quality>
+        <Quality>{t("quality2")}</Quality>
+        <Quality>{t("quality3")}</Quality>
+        <Quality>{t("quality4")}</Quality>
       </Qualities>
-      <Description>
-        <strong style={{color: "red"}}>
-          This page is under construction! Last Update: 06/10/2020
-          <br />
-          <br />
-        </strong>
-        Front-End Developer. Currently looking for new opportunities. Follow my
-        work below.
-      </Description>
+      <Description>{t("description")}</Description>
       <IconsContainer>
         <Icon
           href="https://github.com/daanielcruz"
@@ -57,14 +72,14 @@ const AboutMe = () => {
           className="fas fa-envelope-square fa-2x"
         />
       </IconsContainer>
-      <Buttons>
+      <ButtonContainer>
         <ContactMe
           target="_blank"
           rel="noopener noreferrer"
           href="https://api.whatsapp.com/send?phone=5521979288342&text=Hello%20Daniel%20Cruz!">
-          Contact Me
+          {t("contactButton")}
         </ContactMe>
-      </Buttons>
+      </ButtonContainer>
     </Content>
   );
 };

@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "next": "9.5.3",
+    "next-translate": "^0.17.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-i18next": "^11.7.3",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
