@@ -3,7 +3,7 @@ import Head from "next/head";
 import AboutMe from "../components/AboutMe";
 import Projects from "../components/Projects";
 
-import {Container, Main} from "./styles";
+import {Container, Main} from "../styles/home";
 
 const Home = () => (
   <Container>
