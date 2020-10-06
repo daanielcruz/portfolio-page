@@ -44,13 +44,18 @@ export const TitleName = styled.h1`
 
 export const Qualities = styled.div`
   margin-top: 10%;
+  > strong:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
   @media (min-width: 990px) {
     margin-top: 20%;
   }
 `;
 
-export const Quality = styled.h3`
+export const Quality = styled.strong`
   font-size: 30px;
+  display: block;
   color: #555;
 `;
 

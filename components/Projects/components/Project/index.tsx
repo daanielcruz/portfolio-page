@@ -1,3 +1,5 @@
+import useTranslation from "../../../../hooks/useTranslation";
+
 import {
   Content,
   TopInfo,
@@ -33,38 +35,41 @@ const Project = ({
   description,
   source,
   deploy,
-}: iProject) => (
-  <Content color={color}>
-    <TopInfo>
-      <Number>
-        .{number} <RoleInfo>[{role}]</RoleInfo>
-      </Number>
-    </TopInfo>
-    <MockUpContainer>
-      <MockUp src={img} type={type} />
-    </MockUpContainer>
-    <ProjectFooter>
-      <Presentation>
-        <span>{title}</span>
-        <strong>{description}</strong>
-      </Presentation>
-      <IconsContainer>
-        <Icon
-          href={source}
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Source"
-          className="fab fa-github-square fa-2x"
-        />
-        <Icon
-          href={deploy}
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Deploy"
-          className="fas fa-satellite-dish fa-2x"
-        />
-      </IconsContainer>
-    </ProjectFooter>
-  </Content>
-);
+}: iProject) => {
+  const {t} = useTranslation();
+  return (
+    <Content color={color}>
+      <TopInfo>
+        <Number>
+          .{number} <RoleInfo>[{role}]</RoleInfo>
+        </Number>
+      </TopInfo>
+      <MockUpContainer>
+        <MockUp src={img} type={type} alt={t("projectImage")} />
+      </MockUpContainer>
+      <ProjectFooter>
+        <Presentation>
+          <span>{title}</span>
+          <strong>{description}</strong>
+        </Presentation>
+        <IconsContainer>
+          <Icon
+            href={source}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Source"
+            className="fab fa-github-square fa-2x"
+          />
+          <Icon
+            href={deploy}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Deploy"
+            className="fas fa-satellite-dish fa-2x"
+          />
+        </IconsContainer>
+      </ProjectFooter>
+    </Content>
+  );
+};
 export default Project;

@@ -12,6 +12,7 @@ const strings: Strings = {
     description:
       "Front-End Developer. Currently looking for new opportunities. Follow my work below.",
     contactButton: "Contact me",
+    projectImage: "Project Image",
     title001: 'Bom de Bíblia (It\'s like "Bible Pro")',
     description001: "A Bible quiz, built in TypeScript and React Native.",
     title002: "Challenge - Employees Management",
@@ -32,6 +33,7 @@ const strings: Strings = {
     metaDescription:
       "Daniel Cruz é um Desenvolvedor Front-End, que ama JavaScript e bibliotecas/frameworks correlatos, tais como ReactJS e React Native.",
     contactButton: "Contate-me",
+    projectImage: "Imagem do Projeto",
     quality1: "DESENVOLVEDOR.",
     quality2: "CONFIÁVEL.",
     quality3: "RÁPIDO.",
