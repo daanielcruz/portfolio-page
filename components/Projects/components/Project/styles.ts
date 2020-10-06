@@ -35,7 +35,18 @@ export const MockUp = styled.img`
 
 export const ProjectFooter = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  > div:first-child {
+    margin-bottom: 15px;
+  }
+  @media (min-width: 990px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    > div:first-child {
+      margin-bottom: 0;
+    }
+  }
 `;
 
 export const Presentation = styled.div`
@@ -47,8 +58,13 @@ export const Presentation = styled.div`
 
 export const IconsContainer = styled.div`
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
   height: 50px;
+  @media (min-width: 990px) {
+    align-items: center;
+    justify-content: unset;
+  }
 `;
 
 export const Icon = styled.a`
