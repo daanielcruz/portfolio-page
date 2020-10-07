@@ -18,13 +18,15 @@ import {
 } from "./styles";
 
 const AboutMe = () => {
-  const {locale, t} = useTranslation();
+  const {t} = useTranslation();
   const router = useRouter();
 
   const handleLocaleChange = useCallback(
     (locale: string) => {
       const regex = new RegExp(`^/(${locales.join("|")})`);
       router.push(router.pathname, router.asPath.replace(regex, `/${locale}`));
+      const htmlEl = document.getElementsByTagName("html");
+      htmlEl[0].setAttribute("lang", locale);
     },
     [router],
   );
