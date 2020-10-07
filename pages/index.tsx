@@ -13,6 +13,9 @@ const Index = () => {
   return (
     <Head>
       <meta name="robots" content="noindex, nofollow" />
+      <noscript>
+        <meta http-equiv="refresh" content="0; url=/en" />
+      </noscript>
     </Head>
   );
 };
