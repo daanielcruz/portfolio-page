@@ -64,6 +64,17 @@ const Projects = () => {
         source="https://github.com/daanielcruz/winnin-challenge"
         deploy="https://winnin-challenge.vercel.app/"
       />
+      <Project
+        role="Front-End"
+        number="006"
+        color="lightblue"
+        img="/img/mockup-loocal.webp"
+        type="desktop"
+        title={t("title006")}
+        description={t("description006")}
+        source="https://github.com/daanielcruz/test-frontend"
+        deploy="https://test-frontend-code.netlify.app/"
+      />
       <Footer />
     </Content>
   );

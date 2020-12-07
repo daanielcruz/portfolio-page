@@ -10,7 +10,7 @@ const strings: Strings = {
     quality3: "FAST.",
     quality4: "SMART.",
     description:
-      "Front-End Developer. Currently looking for new opportunities. Follow my work below.",
+      "Front-End Developer. Currently working as Front-End Lead at Loocal with React & React-Native w/ Redux/Redux-Saga. Follow my work below.",
     contactButton: "Contact me",
     projectImage: "Project Image",
     title001: 'Bom de Bíblia (It\'s like "Bible Pro")',
@@ -27,6 +27,9 @@ const strings: Strings = {
     title005: "Challenge - Reddit API",
     description005:
       "In this challenge was used the ReactJS SubReddit API, built in TypeScript an ReactJS.",
+      title006: "Challenge - Loocal",
+      description006:
+        "Built in TypeScript and ReactJS."
   },
   pt: {
     jobRole: "Desenvolvedor",
@@ -39,7 +42,7 @@ const strings: Strings = {
     quality3: "RÁPIDO.",
     quality4: "INTELIGENTE.",
     description:
-      "Desenvolvedor Front-End. Atualmente buscando por novas oportunidades. Siga meu trabalho nas redes abaixo.",
+      "Desenvolvedor Front-End. Atualmente trabalhando como Líder de Front-End na Loocal com React & React-Native c/ Redux/Redux-Saga. Siga meu trabalho nas redes abaixo.",
     title001: "Bom de Bíblia",
     description001: "Um quiz Bíblico, feito em TypeScript e React Native.",
     title002: "Desafio - Gerenciamento de Funcionários",
@@ -54,6 +57,9 @@ const strings: Strings = {
     title005: "Desafio - Reddit API",
     description005:
       "Nesse desafio foi utilizada a API do SubReddit ReactJS, feito em TypeScript e ReactJS.",
+      title006: "Desafio - Loocal",
+    description006:
+      "Feito em TypeScript e ReactJS.",
   },
 };
 
