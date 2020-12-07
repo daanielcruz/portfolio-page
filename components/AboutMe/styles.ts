@@ -60,11 +60,11 @@ export const Quality = styled.strong`
 `;
 
 export const Description = styled.p`
-  margin-top: 15%;
+  margin-top: 10%;
 `;
 
 export const IconsContainer = styled.div`
-  margin-top: 15%;
+  margin-top: 10%;
   display: flex;
   align-items: center;
   height: 50px;
@@ -87,7 +87,7 @@ export const Icon = styled.a`
 `;
 
 export const ButtonContainer = styled.div`
-  margin-top: 15%;
+  margin-top: 10%;
 `;
 
 export const ContactMe = styled.a`
